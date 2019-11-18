@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <TextView 
+        android:id="@+id/tvmini1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="are you already eat ?"
+        />
+    <EditText 
+        android:id="@+id/etmini1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Yes/No"
+        android:layout_below="@+id/tvmini1"        
+        />
+    <Button 
+        android:id="@+id/btnmini1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANSWER"
+        android:layout_below="@+id/etmini1"         
+        />
+    <TextView 
+        android:id="@+id/tvjawab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnmini1"         
+        />
+    <TextView 
+        android:id="@+id/tvmini2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apakah kamu nonton tv dimalam hari??"
+        android:layout_below="@+id/tvjawab1" 
+        />
+    <EditText 
+        android:id="@+id/etmini2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Yes/No"
+        android:layout_below="@+id/tvmini2"         
+        />
+    <Button 
+        android:id="@+id/btnmini2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANSWER"
+        android:layout_below="@+id/etmini2"         
+        />
+    <TextView 
+        android:id="@+id/tvjawab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnmini2"         
+        />
+    <TextView 
+        android:id="@+id/tvmini3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apakah minggu ini kita uts?"
+        android:layout_below="@+id/tvjawab2" 
+        />
+    <EditText 
+        android:id="@+id/etmini3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Yes/No"
+        android:layout_below="@+id/tvmini3"         
+        />
+    <Button 
+        android:id="@+id/btnmini3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANSWER"
+        android:layout_below="@+id/etmini3"         
+        />
+    <TextView 
+        android:id="@+id/tvjawab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnmini3"         
+        />    
+</RelativeLayout>
